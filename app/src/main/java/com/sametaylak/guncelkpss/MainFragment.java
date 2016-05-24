@@ -1,4 +1,4 @@
-package com.sametaylak.guncelkartlar;
+package com.sametaylak.guncelkpss;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -167,7 +167,7 @@ public class MainFragment extends Fragment {
 
         @Override
         protected List<Quest> doInBackground(Void... params) {
-            String url = "http://www.guncelakademi.com/mobilSite/api/getMobilSorular.php";
+            String url = "http://www.guncelakademi.com/mobilSite/api/getMobilKpss.php";
             try {
                 URL obj = new URL(url);
                 HttpURLConnection con = (HttpURLConnection) obj.openConnection();
