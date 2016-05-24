@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity
             }
             fragmentClass = MainFragment.class;
         } else if (id == R.id.nav_coz) {
-            Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse( "http://www.guncelakademi.com/test/guncel-bilgiler-testleri" ) );
+            Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse( "http://www.guncelakademi.com/test/vatandaslik-testleri" ) );
             startActivity( browse );
             fragmentClass = MainFragment.class;
         }
