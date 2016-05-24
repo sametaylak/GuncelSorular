@@ -1,4 +1,4 @@
-package com.sametaylak.guncelkpss;
+package com.sametaylak.guncelkartlar;
 
 import android.os.AsyncTask;
 import android.os.Bundle;

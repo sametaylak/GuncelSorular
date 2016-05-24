@@ -1,9 +1,10 @@
-package com.sametaylak.guncelkpss;
+package com.sametaylak.guncelkartlar;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.Html;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -139,7 +140,7 @@ public class IdkFragment extends Fragment {
                 }
             });
 
-            txtQuest.setText(q.getQuest());
+            txtQuest.setText(Html.fromHtml(q.getQuest()));
             txtSender.setText(q.getSender());
             return vi;
         }

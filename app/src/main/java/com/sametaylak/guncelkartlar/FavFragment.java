@@ -1,4 +1,4 @@
-package com.sametaylak.guncelkpss;
+package com.sametaylak.guncelkartlar;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

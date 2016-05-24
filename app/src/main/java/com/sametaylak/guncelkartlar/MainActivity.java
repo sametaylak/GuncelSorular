@@ -1,4 +1,4 @@
-package com.sametaylak.guncelkpss;
+package com.sametaylak.guncelkartlar;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity
             }
             fragmentClass = MainFragment.class;
         } else if (id == R.id.nav_coz) {
-            Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse( "http://www.guncelakademi.com/test/vatandaslik-testleri" ) );
+            Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse( "http://www.guncelakademi.com/test/guncel-bilgiler-testleri" ) );
             startActivity( browse );
             fragmentClass = MainFragment.class;
         }

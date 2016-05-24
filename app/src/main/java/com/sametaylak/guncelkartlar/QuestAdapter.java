@@ -1,6 +1,7 @@
-package com.sametaylak.guncelkpss;
+package com.sametaylak.guncelkartlar;
 
 import android.content.Context;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -69,7 +70,7 @@ public class QuestAdapter extends BaseAdapter {
             btnFav.setImageResource(R.drawable.nonfav);
         }
 
-        txtQuest.setText(q.getQuest());
+        txtQuest.setText(Html.fromHtml(q.getQuest()));
         txtSender.setText(q.getSender());
         return vi;
     }

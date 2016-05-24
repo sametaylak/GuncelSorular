@@ -1,4 +1,4 @@
-package com.sametaylak.guncelkpss;
+package com.sametaylak.guncelkartlar;
 
 import org.junit.Test;
 
